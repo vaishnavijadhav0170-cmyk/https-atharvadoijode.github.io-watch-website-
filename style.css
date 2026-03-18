@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #fff0f5;
+  color: #333;
+  transition: 0.3s;
+}
+
+header {
+  background: #ff69b4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  background: #ffb6c1;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9') center/cover;
+  color: white;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  margin: 15px;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  background: #ff69b4;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #222;
+  color: white;
+}
+
+.dark-mode nav {
+  background: #444;
+}
+
+.dark-mode .card {
+  background: #333;
+}
